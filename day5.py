@@ -26,9 +26,9 @@ def get_rep():
     for info in all_info['items']:
         updated_time = info['created_at']
 
-        if updated_time > last_week:
+        #if updated_time > last_week:
 
-            get_code(info['full_name'])
+        get_code(info['full_name'])
 
 
 
