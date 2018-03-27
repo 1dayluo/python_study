@@ -3,7 +3,7 @@ from datetime import datetime
 from datetime import timedelta
 
 def make_message(item):
-    //pass
+    pass
 def get_rep():
     repo_api = 'https://api.github.com/search/repositories?q=topic:django+created:>'
     all_info = requests.get(repo_api).json()
